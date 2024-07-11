@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(8, 1, 1);
+    color: aliceblue;
+    font-family: 'Poppins', 'sans-serif';
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color:  rgb(12, 12, 72);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    margin: 0 24px;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(198, 109, 219);
+    font-size: 1.2rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+} 
+.first> div{
+    width: 30%;
+}
+.leftSection{
+    color: azure;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 100px;
+}
+.rightSection{
+    margin: 70px;
+}
+.pink{
+    color: rgb(215, 17, 109);
+}
+#element{
+    color: rgb(161, 82, 190);
+}
+.second{
+    max-width: 80px;
+    padding-left: 220px;
+    padding-bottom: 40px;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.second h1{
+    max-width: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    padding-top: 20px;
+}
+.marquee{
+    background-color: white;
+    animation: marquee 40s linear infinite;
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+    will-change: transform;
+}
+@keyframes marquee{
+    0%{
+        transform: translateX(0);
+        
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.left-column{
+    padding-left: 230px;
+    flex: 1;;
+}
+.right-column{
+    padding-left: 230px;
+    flex: 1;
+}
+.skillsContainer h2{
+    padding-left: 220px;
+}
+.skillsContainer{
+    display: flex;
+}
+.work{
+    padding-left: 230px;
+}
+.internships{
+    display: flex;
+    gap: 140px;
+}
+.resume{
+    padding-left: 230px;
+    padding-top: 30px;
+}
+.another{
+    padding-left: 230px;
+}
